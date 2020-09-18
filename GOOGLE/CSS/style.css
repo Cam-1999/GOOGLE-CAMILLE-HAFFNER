@@ -1,0 +1,119 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 100px
+    space-around: 10px;
+    
+
+}
+a, p {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+#gmail {
+    justify-self: center;
+    align-self: center;
+}
+
+#images{
+    
+    justify-self: center;
+    align-self: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+#menu {
+    justify-self: center;
+    align-self: center;
+    margin-right: 20px;
+}
+
+#login {
+    justify-self: center;
+    align-self: center;
+    background-color: #4683ea;
+    height: 30px;
+    width: 65px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #4285f4;
+}
+
+
+#search_bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+#commande {
+    height: 30px;
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    border-radius: 40%
+}
+
+#commande:focus {
+    box-shadow: 1px 1px 5px grey;
+}
+#commande:hover {
+    box-shadow: 1px 1px 5px grey;
+}
+
+
+#google_search {
+    border: none;
+    font-size: 15px;
+    color: #5F6368;
+    margin-right: 25px;
+    padding: 7px 15px 7px 15px;
+    border-radius: 3px;
+}
+#luck {
+    border: none;
+    font-size: 15px;
+    color: #5F6368;
+    padding: 7px 15px 7px 15px;
+    border-radius: 3px;
+}
+#google_search:hover {
+    border: 1px solid rgba(0, 0, 0, 0.226);
+}
+#luck:hover {
+    border: 1px solid rgba(0, 0, 0, 0.226);
+}
+
+
+/*Footer Section*/
+
+#footer{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
